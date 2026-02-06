@@ -3,6 +3,7 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/webp" href="favicon.webp">
         <meta name="description" content="Sorteio oficial - AOE's João Pessoa. Ferramenta profissional para importação, sorteio e exportação de resultados.">
         <title>Sorteio AOE's — João Pessoa</title>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -25,7 +26,7 @@
             <textarea id="inputNumeros" placeholder="Ex.: 1,2,3,...,19" aria-describedby="helpText"></textarea>
             <div class="row">
                 <div class="col">
-                    <label for="winnersCount" class="label">Quantidade de vencedores</label>
+                    <label for="winnersCount" class="label">Quantidade de Números</label>
                     <input id="winnersCount" type="number" min="1" max="19" value="15">
                 </div>
                 <div class="col actions">
@@ -54,7 +55,10 @@
     <canvas id="confettiCanvas" class="confetti-canvas" aria-hidden="true"></canvas>
 
     <footer class="site-footer">
-        <small>Feito para AOE's — Randson Farias</small>
+        <a href="https://randson.com.br/" target="_blank" class="autor">
+    Desenvolvido por Randson Farias
+</a>
+
     </footer>
 
 </div>
