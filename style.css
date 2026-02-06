@@ -25,7 +25,7 @@ body{
 .site-header{display:flex;align-items:center;justify-content:flex-start;padding:12px 0}
 .brand{display:flex;align-items:center;gap:16px}
 .site-title{margin:0;color:#fff;font-weight:600;font-size:18px}
-.logo{border-radius:8px}
+.logo{border-radius:8px;width:100%;max-width:160px;height:auto;display:block}
 
 .card{background:rgba(255,255,255,0.98);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px;display:grid;grid-template-columns:1fr 420px;gap:20px}
 
@@ -87,7 +87,7 @@ input[type=number]{width:100%;padding:10px;border-radius:8px;border:1px solid #e
 
 @media (max-width:480px){
   body{padding:18px}
-  .brand img{width:48px}
+  .logo{max-width:48px}
   .card{grid-template-columns:1fr; padding:14px}
   .row{gap:8px}
   .actions .buttons{flex-direction:column}
