@@ -1,4 +1,4 @@
-# Sistema de Sorteio — AOE's João Pessoa
+# Sistema de Sorteio Simples
 
 Descrição
 - Ferramenta leve para realizar sorteios de participantes/itens (AOE's João Pessoa). Interface web simples que permite colar ou importar uma lista, escolher a quantidade de vencedores, sortear, copiar e exportar os resultados.
