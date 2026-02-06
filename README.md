@@ -45,10 +45,6 @@ Resolução de problemas
 - Se `Copiar` não funcionar: verifique permissões do navegador para Clipboard; teste no Chrome/Edge atualizados.
 - Se `Importar` não carregar nada: abra DevTools (F12) e verifique se há erros no console; confirme que o arquivo é `.csv` ou texto simples.
 
-Próximos passos recomendados
-- Adicionar tema escuro (CSS), testes automáticos e validação avançada de entradas (ex.: remover espaços e caracteres inválidos).
-- Implementar deploy simples via GitHub Pages ou servidor estático.
-
 Licença e créditos
 - Randson Farias - Visite o meu site Portfólio: https://randson.com.br
 
